@@ -35,7 +35,11 @@
 					<instructions>
 						<Bundle-SymbolicName>${project.artifactId}</Bundle-SymbolicName>
 						<Import-Package>
+							com.waterfallmobile.platform.webapi.swagger,
 							com.waterfallmobile.platform.webapi.v1,
+							com.waterfallmobile.platform.webapi.v1.models,
+							com.waterfallmobile.platform.webapi.v2,
+							com.waterfallmobile.platform.webapi.v2.models,
 							com.wordnik.swagger.jaxrs,
 							*
 						</Import-Package>
