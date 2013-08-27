@@ -11,7 +11,7 @@
 	<artifactId>swagger-core_2.9.1</artifactId>
 	<packaging>bundle</packaging>
 	<name>swagger-core</name>
-	<version>1.2.1-wm</version>
+	<version>1.2.1-wm-1</version>
 	<build>
 		<sourceDirectory>src/main/java</sourceDirectory>
 		<defaultGoal>install</defaultGoal>
@@ -38,8 +38,12 @@
 							com.waterfallmobile.platform.webapi.swagger,
 							com.waterfallmobile.platform.webapi.v1,
 							com.waterfallmobile.platform.webapi.v1.models,
+							com.waterfallmobile.platform.webapi.v1.models.request,
+							com.waterfallmobile.platform.webapi.v1.models.response,
 							com.waterfallmobile.platform.webapi.v2,
 							com.waterfallmobile.platform.webapi.v2.models,
+							com.waterfallmobile.platform.webapi.v2.models.request,
+							com.waterfallmobile.platform.webapi.v2.models.response,
 							com.wordnik.swagger.jaxrs,
 							*
 						</Import-Package>
